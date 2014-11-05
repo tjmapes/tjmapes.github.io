@@ -3,9 +3,9 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Digging My Own Grave
+title:            No Name
 tagline:          
-url:              http://diggingmyowngrave.com
+url:              http://tjmapes.rocks
 paginate:         1
 baseurl:          /
 author:
