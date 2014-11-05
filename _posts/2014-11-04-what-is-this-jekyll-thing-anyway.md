@@ -3,6 +3,7 @@ layout: default
 title:  "What is this Jekyll thing anyway?"
 date:   2014-11-04
 categories: life
+comments: true
 ---
 Lately I've had a major fascination and desire to learn something new.  Something *brand new*.  
 
