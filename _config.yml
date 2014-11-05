@@ -3,7 +3,7 @@ title: TJ's Blog
 email: tj@riptapparel.com
 description: > # this means to ignore newlines until "baseurl:"
   This is my place to learn and write about it.
-baseurl: "/blog" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://diggingmyowngrave.com" # the base hostname & protocol for your site
 twitter_username: tjmapes
 github_username:  tjmapes
