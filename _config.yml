@@ -1,12 +1,19 @@
-# Site settings
-title: TJ's Blog
-email: tj@riptapparel.com
-description: > # this means to ignore newlines until "baseurl:"
-  This is my place to learn and write about it.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://diggingmyowngrave.com" # the base hostname & protocol for your site
-twitter_username: tjmapes
-github_username:  tjmapes
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
 
-# Build settings
-markdown: kramdown
+# Setup
+title:            Digging My Own Grave
+tagline:          
+url:              http://diggingmyowngrave.com
+paginate:         1
+baseurl:          /
+author:
+  name:           TJ Mapes
+  url:            https://twitter.com/tjmapes
+  email:          tj@riptapparel.com
+
+# Custom vars
+version:          1.0.0
+github:
+  repo:           https://github.com/tjmapes
