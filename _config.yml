@@ -5,7 +5,7 @@ relative_permalinks: true
 # Setup
 title:            No Name
 tagline:          
-url:              http://tjmapes.rocks
+url:              http://www.tjmapes.rocks
 paginate:         1
 baseurl:          /
 author:
