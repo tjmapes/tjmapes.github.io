@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "What is this Jekyll thing anyway?"
 date:   2014-11-04
 categories: life
