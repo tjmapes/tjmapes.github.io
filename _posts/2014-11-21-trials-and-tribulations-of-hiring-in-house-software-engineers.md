@@ -1,5 +1,4 @@
 ---
----
 layout: post
 title:  "Trials and tribulations of hiring in-house software engineers"
 date:   2014-11-21
