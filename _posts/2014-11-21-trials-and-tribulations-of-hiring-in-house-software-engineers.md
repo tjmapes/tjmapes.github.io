@@ -20,6 +20,7 @@ My heart sank a little when I heard his reasoning.  We are a small tech team tha
 The real kicker is, this isn't the first time I've heard that my dev team is too small.  Our last in-house developer left the company basically for the same reason.  He wanted more interaction with other developers.
 
 **So what am I suppose to do?**
+
 1. Should I keep outsourcing and pay those high hourly rates?  
 2. Should I plan out smaller projects and have contractors just come in to do them?
 
