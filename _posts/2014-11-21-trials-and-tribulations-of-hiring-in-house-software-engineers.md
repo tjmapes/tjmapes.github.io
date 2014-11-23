@@ -7,7 +7,7 @@ comments: true
 ---
 **What a pain in the ass.**
 
-I do not have an engineering background.  I'm a front-end designer at heart turned full blown CTO and tasked with hiring new tech talent to build our in-house development team.
+I do not have an engineering background.  I'm a front-end designer at heart turned full blown CTO tasked with hiring new tech talent to build our in-house development team.
 
 This in it self is daunting and almost debilitating to a certain degree, but I've been lucky enough to have some help on the technical assesment side which has really made getting people in the door to interview possible.
 
