@@ -67,7 +67,7 @@ body {
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #268bd2;
+  color: #6a52c3;
   text-decoration: none;
 }
 a strong {
@@ -286,13 +286,23 @@ tbody tr:nth-child(odd) th {
  */
 
 .container {
-  max-width: 38rem;
+  max-width: 52.5rem;
   padding-left:  1rem;
   padding-right: 1rem;
   margin-left:  auto;
   margin-right: auto;
 }
 
+/*
+ * Footer
+ *
+ * Center the page content.
+ */
+
+footer {
+  clear: both;
+  margin: 10px 0;
+}
 
 /*
  * Masthead
@@ -319,6 +329,13 @@ tbody tr:nth-child(odd) th {
   color: #c0c0c0;
   letter-spacing: 0;
 }
+
+.about_mini {float: left; width: 20%; padding: 0 2rem 0 0;}
+.guts {float: right; width: 80%;}
+.about_mini, .guts {margin-bottom: 20px;}
+.avatar {max-width: 100%;}
+/* Small Devices, Tablets */
+
 
 
 /*
@@ -425,5 +442,54 @@ a.pagination-item:hover {
     margin-left: -1px;
     border-top-right-radius:    4px;
     border-bottom-right-radius: 4px;
+  }
+}
+
+
+
+/*==========  Mobile First Method  ==========*/
+ 
+  /* Custom, iPhone Retina */
+  @media only screen and (min-width : 320px){
+ 
+  }
+ 
+  /* Extra Small Devices, Phones */
+  @media only screen and (min-width : 480px){
+ 
+  }
+ 
+  /* Small Devices, Tablets */
+  @media only screen and (min-width : 768px){
+ 
+  }
+ 
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width : 992px){
+ 
+  }
+ 
+  /* Large Devices, Wide Screens */
+  @media only screen and (min-width : 1200px){
+ 
+  }
+
+
+
+@media only screen and (max-width : 480px){
+  .avatar {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width : 768px){
+  .masthead {margin: 0 0 15px 0;}
+  .about_mini, .guts {float: none; display: block; width: 100%;}
+  .about_mini {text-align: center; padding: 0;}
+  .avatar {
+    margin: 0 auto; 
+    width: 30%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
   }
 }
