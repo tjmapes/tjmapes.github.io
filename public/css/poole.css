@@ -298,6 +298,9 @@ input, textarea {font-size: 16px; padding: 20px 10px; display: block; border: 1p
   margin-right: auto;
 }
 
+/* Comments */
+#disqus_thread {clear: both;}
+
 /*
  * Footer
  *
