@@ -183,6 +183,7 @@ pre code {
 .highlight {
   margin-bottom: 1rem;
   border-radius: 4px;
+  background-color: #F9FAD5;
 }
 .highlight pre {
   margin-bottom: 0;
@@ -251,6 +252,10 @@ tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
 
+form {margin: 0;}
+input, textarea {font-size: 16px; padding: 20px 10px; display: block; border: 1px solid #ccc; width: 100%; margin-bottom: 20px;}
+.btn { background-color: #333338; color: #fff; font-size: 16px; cursor: pointer; border: 0;}
+.btn:hover { background-color: #555; color: #fff; font-size: 16px; cursor: pointer;}
 
 /*
  * Custom type
@@ -334,9 +339,6 @@ footer {
 .guts {float: right; width: 80%;}
 .about_mini, .guts {margin-bottom: 20px;}
 .avatar {max-width: 100%;}
-/* Small Devices, Tablets */
-
-
 
 /*
  * Posts and pages
