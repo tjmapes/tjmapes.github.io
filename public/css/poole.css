@@ -48,7 +48,8 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -88,19 +89,19 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 h2 {
   margin-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 h3 {
   margin-top: 1.5rem;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 h4, h5, h6 {
   margin-top: 1rem;
-  font-size: 1rem;
+  font-size: .8rem;
 }
 
 /* Body text */
@@ -338,7 +339,8 @@ footer {
   letter-spacing: 0;
 }
 
-.about_mini {float: left; width: 20%; padding: 0 2rem 0 0;}
+.about_mini {float: left; width: 20%; padding: 0 2rem 0 0; font-size: 85%; opacity: 0.8; transition: opacity .25s ease-in-out;}
+.about_mini:hover {opacity: 1;}
 .guts {float: right; width: 80%;}
 .about_mini, .guts {margin-bottom: 20px;}
 .avatar {max-width: 100%;}
@@ -359,6 +361,7 @@ footer {
 .page-title,
 .post-title {
   color: #303030;
+  font-weight: 700;
 }
 .page-title,
 .post-title {
@@ -410,7 +413,7 @@ footer {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Quattrocento Sans', sans-serif;
   color: #ccc;
   text-align: center;
 }
