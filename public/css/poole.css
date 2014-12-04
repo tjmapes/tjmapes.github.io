@@ -89,19 +89,19 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 h2 {
   margin-top: 1rem;
-  font-size: 1.3rem;
+  font-size: 1.8rem;
 }
 h3 {
   margin-top: 1.5rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 h4, h5, h6 {
   margin-top: 1rem;
-  font-size: .8rem;
+  font-size: 1rem;
 }
 
 /* Body text */
@@ -339,9 +339,9 @@ footer {
   letter-spacing: 0;
 }
 
-.about_mini {float: left; width: 20%; padding: 0 2rem 0 0; font-size: 85%; opacity: 0.8; transition: opacity .25s ease-in-out;}
+.about_mini {float: left; width: 30%; padding: 0 2rem 0 0; font-size: 85%; opacity: 0.8; transition: opacity .25s ease-in-out;}
 .about_mini:hover {opacity: 1;}
-.guts {float: right; width: 80%;}
+.guts {float: right; width: 70%;}
 .about_mini, .guts {margin-bottom: 20px;}
 .avatar {max-width: 100%;}
 
@@ -492,11 +492,11 @@ a.pagination-item:hover {
 
 @media only screen and (max-width : 768px){
   .masthead {margin: 0 0 15px 0;}
-  .about_mini, .guts {float: none; display: block; width: 100%;}
+  .about_mini, .guts {float: none; display: block; width: 100%; font-size: 100%;}
   .about_mini {text-align: center; padding: 0;}
   .avatar {
     margin: 0 auto; 
-    width: 30%;
+    width: 50%;
     -moz-border-radius: 100%;
     border-radius: 100%;
   }
