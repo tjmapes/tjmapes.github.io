@@ -14,7 +14,7 @@ author:
 
 baseurl:          /
 paginate:         3
-excerpt_separator: <!--more-->  # you can specify your own separator, of course.
+excerpt_separator: <!--more-->
 
 # Custom vars
 version:          1.0.0
@@ -23,6 +23,6 @@ github:           tjmapes
 
 # Top Nav
 pages_list:
-  About: '/about'
-  Archive: '/archive'
-  Contact: '/contact'
+  About:          '/about'
+  Archive:        '/archive'
+  Contact:        '/contact'
