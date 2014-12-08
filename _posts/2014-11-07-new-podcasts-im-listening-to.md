@@ -2,10 +2,14 @@
 layout: post
 title:  "New Podcasts I'm Listening To"
 date:   2014-11-07
+desc: "Latest podcast recommendations"
+keywords: "podcasts, startups, business development"
 categories: podcasts
 comments: true
 ---
 In my last post I mentioned I'm listening to more podcasts than normal lately so I thought I'd take a quick moment to go ahead and link those up for you to enjoy as well.
+
+<!--more-->
 
 ###What I'm listening to:
 1. [StartUp Podcast](http://www.hearstartup.com) - The business origin story you never get to hear

@@ -2,6 +2,8 @@
 layout: post
 title:  "Trials and tribulations of hiring in-house software engineers"
 date:   2014-11-21
+desc: "My hiring woes"
+keywords: "development, hiring"
 categories: hiring
 comments: true
 ---
@@ -11,7 +13,9 @@ I do not have an engineering background.  I'm a front-end designer at heart turn
 
 This in it self is daunting and almost debilitating to a certain degree, but I've been lucky enough to have some help on the technical assesment side which has really made getting people in the door to interview possible.
 
-We've had a handfull of interviews so far.  Most seemed promising but wasn't exactly what we needed here.  After a couple weeks of nothing, I finally had a great interview so I offered him the job that same day.  I thought for sure he was going to take the job as he seemed excited and enthused when he left.  The recruiter I was working with echoed the same feelings. 
+<!--more-->
+
+We've had a handfull of interviews so far.  Most seemed promising but wasn't exactly what we needed here.  After a couple weeks of nothing, I finally had a great interview so I offered him the job that same day.  I thought for sure he was going to take the job as he seemed excited and enthused when he left.  The recruiter I was working with echoed the same feelings.
 
 Sadly, he declined saying he wanted to work in a more robust tech environment.
 

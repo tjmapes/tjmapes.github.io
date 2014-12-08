@@ -11,9 +11,13 @@ title: Home
         {{ post.title }}
       </a>
     </h1>
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">Posted on: {{ post.date | date_to_string }}</time>
 
-    {{ post.content }}
+    {% if post.content contains '<!--more-->' %}
+      {{ post.content | split:'<!--more-->' | first }}
+    {% else %}
+      <!-- Case for when no excerpt is defined -->
+    {% endif %}
 
   </article>
   {% endfor %}

@@ -5,13 +5,19 @@
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>
-    {% if page.title == "Home" %}
-      {{ site.title }} &middot; {{ site.tagline }}
-    {% else %}
-      {{ page.title }} &middot; {{ site.title }}
-    {% endif %}
-  </title>
+  <title>{{ site.site_name }}{% if page.title %} | {{ page.title }}{% endif %}</title>
+
+  {% if page.desc %}
+    <meta name="description" content="{{ page.desc }}" />
+  {% else %}
+    <meta name="description" content="I'm CTO of an online daily T-Shirt website called RIPT Apparel." />
+  {% endif %}
+
+  {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords }}" />
+  {% else %}
+    <meta name="keywords" content="design, development, business, cto, blogging, tshirts, t-shirts, apparel, ecommerce, e-commerce, analytics" />
+  {% endif %}
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}public/css/poole.css">

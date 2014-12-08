@@ -2,12 +2,16 @@
 layout: post
 title:  "What is this Jekyll thing anyway?"
 date:   2014-11-04
+desc: "Diving into Jekyll"
+keywords: "jekyll, new things, learning, getting started"
 categories: life
 comments: true
 ---
 Lately I've had a major fascination and desire to learn something new.  Something *brand new*.  
 
 I'm the CTO and Co-Founder of [RIPT Apparel](https://www.riptapparel.com) and for the past couple months I've been searching for quality developers to build out my team.  So I've been researching everything from micro architecture to agile, trying to really get in the mindset of a developer.  
+
+<!--more-->
 
 So naturally, I subscribed to a bunch of new podcasts centered around development.
 

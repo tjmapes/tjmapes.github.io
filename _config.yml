@@ -4,22 +4,25 @@ relative_permalinks: true
 
 # Setup
 title:            TJ Mapes
-tagline:          
+tagline:          Stuff and things
+description:      'A place where I can speak my mind on family, business and more.  Really just whatever.'
 url:              http://www.tjmapes.rocks
-paginate:         1
-baseurl:          /
 author:
   name:           TJ Mapes
-  url:            https://twitter.com/tjmapes
+  url:            https://www.tjmapes.rocks
   email:          tj@riptapparel.com
+
+baseurl:          /
+paginate:         3
+excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 
 # Custom vars
 version:          1.0.0
-github:
+github:           tjmapes
   repo:           https://github.com/tjmapes
 
 # Top Nav
-pages_list:       
+pages_list:
   About: '/about'
   Archive: '/archive'
   Contact: '/contact'
