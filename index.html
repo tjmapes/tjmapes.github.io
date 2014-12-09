@@ -16,6 +16,7 @@ title: Home
     {% if post.content contains '<!--more-->' %}
       {{ post.content | split:'<!--more-->' | first }}
       <p>[ <a href="{{ post.url }}">Read More</a> ]</p>
+      
     {% else %}
       <!-- Case for when no excerpt is defined -->
     {% endif %}

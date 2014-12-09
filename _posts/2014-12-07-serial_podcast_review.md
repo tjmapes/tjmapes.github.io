@@ -2,6 +2,8 @@
 layout: post
 title:  "Serial Podcast Review"
 date:   2014-12-07
+desc: "Serial podcast review"
+keywords: "development, hiring"
 categories: podcasts
 comments: true
 ---
