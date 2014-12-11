@@ -1,4 +1,6 @@
-_site
-.sass-cache
+_drafts/
+_site/
 .DS_Store
+*.swp
+Gemfile.lock
 .codekit
