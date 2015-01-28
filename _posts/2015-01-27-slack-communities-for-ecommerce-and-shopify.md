@@ -9,7 +9,6 @@ comments: true
 ---
 So, during my current quest to re-platform my [online T-Shirt business](http://www.riptapparel.com), I've been scouring the internet researching everything under the sun.  Every platform possible, every case study possible, you name it.  More to come on that front later.
 
-<!--more-->
 
 Meanwhile, I've had small successes reaching out to those in the community of said platforms, but as I've been contacting people individually, I thought to my self, why isn't there just a place where I can go and get advice from people with ease?  So I started two Slack Communities.  
 
