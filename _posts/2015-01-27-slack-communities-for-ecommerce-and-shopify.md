@@ -20,6 +20,6 @@ If you aren't familiar with Slack, it's basically a chat room.  Many people rela
 The first slack community I started is a place for [all things Ecommerce](http://www.ecommerceslackchat.com).  If you want advice on any aspect of Ecommerce or want to contribute to the community, please [apply to join](http://www.ecommerceslackchat.com).
 
 
-### Talkshopify.com
+### eCommTalk.com (Over 1,000 Members)
 
-The second slack community I started has a more narrow focus, Shopify.  This group is for shop owners, theme developers or app developers.  Any and all are welcome to [apply](http://www.talkshopify.com).
+The second slack community I started has a more narrow focus, Shopify.  This group is for shop owners, theme developers or app developers.  Any and all are welcome to [apply](http://www.ecommtalk.com).
