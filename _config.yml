@@ -9,7 +9,6 @@ collections:
     title: Uploads
     output: true
 permalink: pretty
-#relative_permalinks: true
 tagline: Stuff and things
 description: A place where I can speak my mind on family, business and more.  Really
   just whatever.
@@ -28,4 +27,5 @@ pages_list:
   About: "/about"
   Archive: "/archive"
   Contact: "/contact"
-plugins: [jekyll-paginate]
+plugins:
+- jekyll-paginate
