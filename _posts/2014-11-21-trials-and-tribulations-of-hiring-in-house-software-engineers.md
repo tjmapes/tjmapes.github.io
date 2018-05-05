@@ -1,12 +1,14 @@
 ---
+title: Trials and tribulations of hiring in-house software engineers
+date: 2014-11-21 00:00:00 Z
+categories:
+- hiring
 layout: post
-title:  "Trials and tribulations of hiring in-house software engineers"
-date:   2014-11-21
-desc: "My hiring woes"
-keywords: "development, hiring"
-categories: hiring
+desc: My hiring woes
+keywords: development, hiring
 comments: true
 ---
+
 **What a pain in the ass.**
 
 I do not have an engineering background.  I'm a front-end designer at heart turned full blown CTO tasked with hiring new tech talent to build our in-house development team.

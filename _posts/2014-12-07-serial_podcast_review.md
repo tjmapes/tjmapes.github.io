@@ -1,12 +1,14 @@
 ---
+title: Serial Podcast Review
+date: 2014-12-07 00:00:00 Z
+categories:
+- podcasts
 layout: post
-title:  "Serial Podcast Review"
-date:   2014-12-07
-desc: "Serial podcast review"
-keywords: "development, hiring"
-categories: podcasts
+desc: Serial podcast review
+keywords: development, hiring
 comments: true
 ---
+
 If you love *who done it* movies, then you'll really love the [Serial Podcast](http://www.serialpodcast.org) from the people behind [This American Life](http://www.thisamericanlife.org).  Just barely into episode one I was hooked.  I wanted to listen to as many episodes as I could.  Currently I'm working on episode six.  
 
 <!--more-->

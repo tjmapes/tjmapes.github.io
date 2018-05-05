@@ -1,12 +1,14 @@
 ---
+title: Slack Communities for Ecommerce and Shopify
+date: 2015-01-27 00:00:00 Z
+categories:
+- ecommerce
 layout: post
-title:  "Slack Communities for Ecommerce and Shopify"
-date:   2015-01-27
-desc: "I've started up a couple Slack communities focused on Ecommerce and Shopify"
-keywords: "ecommerce, business, shopify"
-categories: ecommerce
+desc: I've started up a couple Slack communities focused on Ecommerce and Shopify
+keywords: ecommerce, business, shopify
 comments: true
 ---
+
 So, during my current quest to re-platform my [online T-Shirt business](http://www.riptapparel.com), I've been scouring the internet researching everything under the sun.  Every platform possible, every case study possible, you name it.  More to come on that front later.
 
 <!--more-->

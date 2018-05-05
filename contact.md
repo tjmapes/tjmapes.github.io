@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Contact
+layout: page
 ---
 
 <form action="//forms.brace.io/tjmapes@gmail.com" method="POST">

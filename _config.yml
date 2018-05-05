@@ -1,28 +1,30 @@
-# Permalinks
-permalink:         pretty
+---
+title: TJ Mapes
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+permalink: pretty
 relative_permalinks: true
-
-# Setup
-title:             TJ Mapes
-tagline:           Stuff and things
-description:       'A place where I can speak my mind on family, business and more.  Really just whatever.'
-url:               http://www.tjmapes.rocks
+tagline: Stuff and things
+description: A place where I can speak my mind on family, business and more.  Really
+  just whatever.
+url: http://www.tjmapes.rocks
 author:
-  name:            TJ Mapes
-  url:             https://www.tjmapes.rocks
-  email:           tj@riptapparel.com
-
-baseurl:           /
-paginate:          3
-excerpt_separator: <!--more-->
-
-# Custom vars
-version:           1.0.0
-github:            tjmapes
-repo:              https://github.com/tjmapes
-
-# Top Nav
+  name: TJ Mapes
+  url: https://www.tjmapes.rocks
+  email: tj@riptapparel.com
+baseurl: "/"
+paginate: 3
+excerpt_separator: "<!--more-->"
+version: 1.0.0
+github: tjmapes
+repo: https://github.com/tjmapes
 pages_list:
-  About:           '/about'
-  Archive:         '/archive'
-  Contact:         '/contact'
+  About: "/about"
+  Archive: "/archive"
+  Contact: "/contact"

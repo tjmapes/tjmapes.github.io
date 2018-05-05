@@ -1,12 +1,14 @@
 ---
+title: New Podcasts I'm Listening To
+date: 2014-11-07 00:00:00 Z
+categories:
+- podcasts
 layout: post
-title:  "New Podcasts I'm Listening To"
-date:   2014-11-07
-desc: "Latest podcast recommendations"
-keywords: "podcasts, startups, business development"
-categories: podcasts
+desc: Latest podcast recommendations
+keywords: podcasts, startups, business development
 comments: true
 ---
+
 In my last post I mentioned I'm listening to more podcasts than normal lately so I thought I'd take a quick moment to go ahead and link those up for you to enjoy as well.
 
 <!--more-->

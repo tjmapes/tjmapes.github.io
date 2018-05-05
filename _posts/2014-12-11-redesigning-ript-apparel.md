@@ -1,12 +1,14 @@
 ---
+title: Redesigning RIPT Apparel
+date: 2014-12-11 00:00:00 Z
+categories:
+- design
 layout: post
-title:  "Redesigning RIPT Apparel"
-date:   2014-12-11
-desc: "redesigning riptapparel.com"
-keywords: "re-design, design, development, business, e-commerce"
-categories: design
+desc: redesigning riptapparel.com
+keywords: re-design, design, development, business, e-commerce
 comments: true
 ---
+
 Earlier this year it dawned on me that riptapparel.com needed a facelift.  Not just a fresh coat of paint, but some user experience tweaks and some user interface overhauls to better set us up for the future.  
 
 What exactly does that mean?  We've branched outside our daily model and have started [offering other products for sale](https://www.riptapparel.com/store).  This is something we plan on continuing but the old website wasn't really designed with that in mind.  Granted, we haven't gotten to where I want to be 100% yet due to [lacking development resources]({% post_url 2014-11-21-trials-and-tribulations-of-hiring-in-house-software-engineers %}) but we've laid the groundwork for whats to come in 2015.
