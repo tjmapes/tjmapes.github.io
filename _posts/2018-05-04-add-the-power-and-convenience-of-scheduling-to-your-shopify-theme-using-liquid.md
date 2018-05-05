@@ -10,6 +10,7 @@ tags:
 - shopify theme
 - development
 layout: post
+desc: I'm going to show you how to add scheduling to your shopify theme sections
 comments: true
 ---
 
