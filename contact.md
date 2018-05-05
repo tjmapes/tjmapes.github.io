@@ -3,4 +3,4 @@ title: Contact
 layout: page
 ---
 
-Email me at tj [at] gmail [dot] com
+<a href="mailto:tjmapes@gmail.com?subject=Hey, TJ!" title="Tell me what's on your mind.">tjmapes@gmail.com</a>
