@@ -41,7 +41,9 @@ Then I added inputs and drop-downs so I could enter start and end dates/times.
 ### What time is it?
 **TL;DR** - You can get the final theme section code here, but follow along below.
 
-`{%- assign current_date_time = 'now' | date: "%Y%m%d%H%M" -%}`
+```
+{%- assign current_date_time = 'now' | date: "%Y%m%d%H%M" -%}
+```
 
 First, we need to capture the current date and time! To do so we use a date filter in liquid, and assign `now` (the time right now) to variable `current_date_time`.
 
@@ -54,7 +56,7 @@ If the current date and time is: **May 2nd 2018 5:12 PM**
 ### Constructing the start date
 We need to grab the desired start_date from the section settings entered on the front-end. Here is the code that does that.
 
-```liquid
+```
 {%- assign start_year = section.settings.start_year -%}
 {%- assign start_month = section.settings.start_month -%}
 {%- assign start_day = section.settings.start_day -%}
@@ -75,7 +77,8 @@ We end up with just a number:
 Duplicate the start date code and replace the words **start** with **end**.
 
 ### This is where the magic happens!
-```liquid
+
+```
 {%- if current_date_time >= start_date and current_date_time < end_date -%}
   <a href="{{ section.settings.link }}">
     <img 
