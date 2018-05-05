@@ -29,3 +29,5 @@ pages_list:
   Contact: "/contact"
 plugins:
 - jekyll-paginate
+markdown: kramdown
+highlighter: rouge
