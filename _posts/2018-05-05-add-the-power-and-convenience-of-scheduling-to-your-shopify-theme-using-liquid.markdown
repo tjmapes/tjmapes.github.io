@@ -9,6 +9,7 @@ tags:
 - shopify development
 - shopify theme
 - development
+layout: post
 ---
 
 As an eCommerce store owner, I’m sure you run sales and promotions to boost revenues. As you know, there are many things that go into launching a successful sale.
