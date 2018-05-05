@@ -41,13 +41,11 @@ Then I added inputs and drop-downs so I could enter start and end dates/times.
 ### What time is it?
 **TL;DR** - You can get the final theme section code here, but follow along below.
 
-{% highlight ruby %}
-{%- assign current_date_time = 'now' | date: "%Y%m%d%H%M" -%}
-{% endhighlight %}
+`{%- assign current_date_time = 'now' | date: "%Y%m%d%H%M" -%}`
 
 First, we need to capture the current date and time! To do so we use a date filter in liquid, and assign `now` (the time right now) to variable `current_date_time`.
 
-What’s that junk at the end you ask? That’s Ruby’s **strftime** method. It’s how dates and times are formatted in Ruby, which is what liquid is written in.
+What’s that junk at the end you ask? That’s liquid’s **strftime** method. It’s how dates and times are formatted in liquid, which is what liquid is written in.
 
 If the current date and time is: **May 2nd 2018 5:12 PM**
 
@@ -56,13 +54,13 @@ If the current date and time is: **May 2nd 2018 5:12 PM**
 ### Constructing the start date
 We need to grab the desired start_date from the section settings entered on the front-end. Here is the code that does that.
 
-{% highlight ruby %}
+```liquid
 {%- assign start_year = section.settings.start_year -%}
 {%- assign start_month = section.settings.start_month -%}
 {%- assign start_day = section.settings.start_day -%}
 {%- assign start_hour = section.settings.start_hour | remove: ':' -%}
 {%- assign start_date = start_year | append: start_month | append: start_day | append: start_hour | convert: "date" -%}
-{% endhighlight %}
+```
 
 Here we have 4 variables, one for the year, month, day and hour. Then we have a 5th variable called `start_date` which combines them all together.
 
@@ -77,7 +75,7 @@ We end up with just a number:
 Duplicate the start date code and replace the words **start** with **end**.
 
 ### This is where the magic happens!
-{% highlight ruby %}
+```liquid
 {%- if current_date_time >= start_date and current_date_time < end_date -%}
   <a href="{{ section.settings.link }}">
     <img 
@@ -86,7 +84,7 @@ Duplicate the start date code and replace the words **start** with **end**.
      ">
   </a>
 {%- endif -%}
-{% endhighlight %}
+```
 
 Since we know the `current_date_time` we can now compare it to the `start_date` and `end_date`. Now, the hero image will only display if `current_date_time` falls between `start_date` and `end_date`.
 
