@@ -16,6 +16,8 @@ comments: true
 
 As an eCommerce store owner, I’m sure you run sales and promotions to boost revenues. As you know, there are many things that go into launching a successful sale.
 
+<!--more-->
+
 **Some examples are:**
 - Creating a discount code, Shopify script or free shipping method
 - Making creative for emails, your homepage CTAs and social posts
