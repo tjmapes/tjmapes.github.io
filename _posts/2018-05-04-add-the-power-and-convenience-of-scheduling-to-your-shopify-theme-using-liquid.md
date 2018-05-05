@@ -44,9 +44,9 @@ Then I added inputs and drop-downs so I could enter start and end dates/times.
 ### What time is it?
 **TL;DR** - You can get the final theme section code here, but follow along below.
 
-```
+{% highlight liquid %}
 {%- assign current_date_time = 'now' | date: "%Y%m%d%H%M" -%}
-```
+{% endhighlight %}
 
 First, we need to capture the current date and time! To do so we use a date filter in liquid, and assign `now` (the time right now) to variable `current_date_time`.
 
