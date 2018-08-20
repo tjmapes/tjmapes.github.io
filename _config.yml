@@ -27,5 +27,6 @@ pages_list:
   About: "/about"
   Archive: "/archive"
   Contact: "/contact"
+  Hire me: "mailto:tjmapes@gmail.com?subject=Hey, TJ!"
 plugins:
 - jekyll-paginate
